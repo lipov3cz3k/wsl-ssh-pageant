@@ -1,5 +1,7 @@
 # wsl-ssh-pageant
 
+[![Build status](https://ci.appveyor.com/api/projects/status/wybb41qnokuwj7a4?svg=true)](https://ci.appveyor.com/project/lipov3cz3k/wsl-ssh-pageant)
+
 ## How to use with WSL
 
 1. On the Windows side run Pageant (or compatible agent such as gpg4win).
