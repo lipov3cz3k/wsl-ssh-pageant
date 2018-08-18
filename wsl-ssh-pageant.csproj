@@ -6,6 +6,14 @@
     <RuntimeIdentifier>win10-x64</RuntimeIdentifier>
     <LangVersion>latest</LangVersion>
     <RootNamespace>WslSSHPageant</RootNamespace>
+
+    <Product>wsl-ssh-pageant</Product>
+    <Description>A Pageant -&gt; TCP bridge for use with Windows 10 OpenSSH Client or WSL, allowing for Pageant to be used as an ssh-ageant.
+Original Project : https://github.com/btolfa/pipe-ssh-pageant
+Which in turn is based on : https://github.com/Doridian/wsl-ssh-pageant</Description>
+    <PackageProjectUrl>https://github.com/lipov3cz3k/wsl-ssh-pageant</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/lipov3cz3k/wsl-ssh-pageant</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">

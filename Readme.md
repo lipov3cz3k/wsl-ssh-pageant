@@ -40,5 +40,7 @@ $ set SSH_AUTH_SOCK=\\.\pipe\ssh-pageant
 You can use both `--winssh` and `--wsl` parameters at the same time with the same process to proxy for both
 
 ## Credit
+Original author is [Doridian](https://github.com/Doridian/wsl-ssh-pageant) who integrated windows ssh to wsl-ssl-pageant created by [benpye](https://github.com/benpye/wsl-ssh-pageant).
+In this fork I add appveyor integration originaly written by [tprasadtp](https://github.com/tprasadtp/pipe-ssh-pageant) in his separated project.
 
 Thanks to [John Starks](https://github.com/jstarks/) for [npiperelay](https://github.com/jstarks/npiperelay/), showing a more secure way to create a stream between WSL and Linux.
