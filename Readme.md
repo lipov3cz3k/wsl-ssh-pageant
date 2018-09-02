@@ -6,7 +6,7 @@
 
 1. On the Windows side run Pageant (or compatible agent such as gpg4win).
 
-2. Run `wsl-ssh-pageant.exe --wsl C:\wsl-ssh-pageant` (or any other path) on windows in a short path (max ~100 characters total!)
+2. Run `wsl-ssh-pageant.exe --wsl C:\wsl-ssh-pageant\ssh-agent.sock` (or any other path) on windows in a short path (max ~100 characters total!)
 
 3. In WSL run the following
 
