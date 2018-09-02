@@ -31,7 +31,7 @@ namespace WslSSHPageant
 
         protected override bool IsConnected()
         {
-            throw new NotImplementedException();
+            return client.Connected;
         }
 
         protected override async Task<bool> SendArraySegment(ArraySegment<byte> buf)
